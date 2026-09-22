@@ -2,15 +2,15 @@
 
 WordPress API ne prima izmjene bez prijave. Ovdje je točan HTML za zalijepiti. Cijena u cjeniku nije izmišljena — stavi satnicu 50 € ili iznos koji odlučiš.
 
-## Stanje (provjera 22. 9. 2026.)
+## Stanje (objavljeno 22. 9. 2026.)
 
 | Mjesto | Status |
 | --- | --- |
-| [alkemija.com/chatgpt-oglasavanje](https://alkemija.com/chatgpt-oglasavanje/) | objavljeno, s uputama |
-| Početna alkemija.com (pločica u paketima) | nije |
-| [alkemija.hr/chatgpt-oglasavanje](https://www.alkemija.hr/chatgpt-oglasavanje/) | nije |
-| [Cjenik / ponuda](https://www.alkemija.hr/cjenik/) | nije |
-| Naslovnica alkemija.hr (uz piluricu) | nije |
+| [alkemija.com/chatgpt-oglasavanje](https://alkemija.com/chatgpt-oglasavanje/) | objavljeno |
+| Početna alkemija.com (pločica) | objavljeno |
+| [alkemija.hr/chatgpt-oglasavanje](https://www.alkemija.hr/chatgpt-oglasavanje/) | objavljeno, s uputama, bez imprinta |
+| [Cjenik](https://www.alkemija.hr/cjenik/) | objavljeno (sat, 50 €, bez medijskog budžeta) |
+| Naslovnica alkemija.hr (ispod pilurice) | objavljeno |
 
 ## 1. Pločica na početnoj alkemija.com
 
