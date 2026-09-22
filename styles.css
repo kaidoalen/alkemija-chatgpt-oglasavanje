@@ -632,10 +632,28 @@ a:focus-visible {
     scroll-margin-top: 8.5rem;
   }
 
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: start;
+    width: 100%;
+    gap: 0.55rem 1.25rem;
+  }
+
+  .nav a {
+    font-size: 1rem;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     min-height: 0;
     padding-top: 2.2rem;
+    padding-bottom: 2.75rem;
+    gap: 1.75rem;
+  }
+
+  .hero .tile {
+    margin-bottom: 0.25rem;
   }
 
   .hero::before {
