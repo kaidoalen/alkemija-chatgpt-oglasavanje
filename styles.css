@@ -19,6 +19,11 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id],
+#kontakt {
+  scroll-margin-top: 5.25rem;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -622,6 +627,11 @@ a:focus-visible {
 }
 
 @media (max-width: 860px) {
+  section[id],
+  #kontakt {
+    scroll-margin-top: 8.5rem;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     min-height: 0;
