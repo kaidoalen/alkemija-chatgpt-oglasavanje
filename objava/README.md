@@ -10,7 +10,7 @@ WordPress API ne prima izmjene bez prijave. Ovdje je točan HTML za zalijepiti. 
 | Početna alkemija.com (pločica) | objavljeno |
 | [alkemija.hr/chatgpt-oglasavanje](https://www.alkemija.hr/chatgpt-oglasavanje/) | objavljeno, s uputama, bez imprinta |
 | [Cjenik](https://www.alkemija.hr/cjenik/) | objavljeno (sat, 50 €, bez medijskog budžeta) |
-| Naslovnica alkemija.hr (ispod pilurice) | objavljeno |
+| Naslovnica alkemija.hr (ispod pilurice) | objavljeno, crte između poveznica |
 
 ## 1. Pločica na početnoj alkemija.com
 
@@ -47,3 +47,5 @@ Na naslovnici alkemija.hr, odmah ispod pilurice, isti stil kao „priprema newsl
 `chatgpt oglašavanje >` → `https://alkemija.com/chatgpt-oglasavanje/`
 
 Točan HTML: `alkemija-hr-naslovnica-link.html`. Kad bude živa stranica na alkemija.hr, zamijeni href u `/chatgpt-oglasavanje/`.
+
+Crte između tih heading poveznica: zalijepi `alkemija-hr-naslovnica-crte.css` u Dodatni CSS (ne dira imprint).
