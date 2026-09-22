@@ -239,6 +239,12 @@ a {
 .intro,
 .stack {
   max-width: 48rem;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.05rem;
+}
+
+.intro a {
+  color: #fff;
 }
 
 .intro p,

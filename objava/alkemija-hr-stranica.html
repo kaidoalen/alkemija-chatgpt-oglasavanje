@@ -1,0 +1,146 @@
+<!--
+  alkemija.hr — nova stranica
+  WP: Stranice → Dodaj → naslov ChatGPT oglašavanje, slug chatgpt-oglasavanje
+  Editor: Custom HTML (ili Elementor HTML). Zalijepi SVE ispod ovog komentara.
+  Objavljeno: https://www.alkemija.hr/chatgpt-oglasavanje/
+-->
+<style>
+.alk-cgpt{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1a1a1a;line-height:1.55;max-width:920px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.alk-cgpt h1{font-size:clamp(1.8rem,4vw,2.6rem);margin:0 0 .75rem;font-weight:700}
+.alk-cgpt h2{font-size:1.35rem;margin:2.25rem 0 .75rem;font-weight:650}
+.alk-cgpt h3{font-size:1.1rem;margin:1.25rem 0 .4rem;font-weight:650}
+.alk-cgpt p,.alk-cgpt li{font-size:1.05rem}
+.alk-cgpt .lead{font-size:1.15rem;color:#333}
+.alk-cgpt .note{font-size:.95rem;color:#555;margin:.75rem 0 1.25rem}
+.alk-cgpt .cta{display:inline-block;margin:.5rem .5rem .5rem 0;padding:.85rem 1.35rem;background:#111;color:#fff!important;text-decoration:none;border-radius:4px;font-weight:600}
+.alk-cgpt .cta.secondary{background:#fff;color:#111!important;border:1px solid #111}
+.alk-cgpt ul,.alk-cgpt ol{padding-left:1.2rem}
+.alk-cgpt table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.98rem}
+.alk-cgpt th,.alk-cgpt td{border:1px solid #ddd;padding:.65rem .75rem;text-align:left;vertical-align:top}
+.alk-cgpt th{background:#f4f4f4}
+.alk-cgpt .check li{margin:.35rem 0}
+.alk-cgpt .steps{counter-reset:step;list-style:none;padding-left:0}
+.alk-cgpt .steps>li{position:relative;padding:1rem 1rem 1rem 3.2rem;margin:0 0 .75rem;background:#f7f7f7;border-radius:6px}
+.alk-cgpt .steps>li:before{counter-increment:step;content:counter(step);position:absolute;left:.85rem;top:1rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#111;color:#fff;font-size:.9rem;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1.6rem;text-align:center}
+.alk-cgpt .box{border:1px solid #ddd;border-radius:6px;padding:1rem 1.1rem;margin:1rem 0;background:#fafafa}
+.alk-cgpt footer.alk-foot{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid #ddd;font-size:.95rem;color:#444}
+</style>
+<section class="alk-cgpt">
+  <h1>ChatGPT oglašavanje</h1>
+  <p class="lead">ChatGPT je mjesto na kojem korisnici traže preporuke, usporedbe i rješenja. Od kolovoza 2026. u Europi je dostupno i plaćeno oglašavanje unutar razgovora. Alkemija postavlja i vodi ChatGPT kampanje s fokusom na mjerljive rezultate i ROI, istim standardima kao na Google Ads i Meta kampanjama.</p>
+  <p class="note">Oglasi se prikazuju isključivo korisnicima besplatnog paketa i paketa Go.</p>
+  <p>
+    <a class="cta" href="mailto:info@alkemija.hr?subject=ChatGPT%20ogla%C5%A1avanje">Kontaktirajte nas</a>
+    <a class="cta secondary" href="https://www.alkemija.hr/anketa/">Kako vam možemo pomoći?</a>
+    <a class="cta secondary" href="https://alkemija.com/chatgpt-oglasavanje/">Ista usluga na alkemija.com</a>
+  </p>
+
+  <h2>Kako mi to radimo — upute</h2>
+  <p>Ovo je naš interni i klijentski postupak. Svaka kampanja ide istim redoslijedom, bez skraćivanja mjerenja.</p>
+  <ol class="steps">
+    <li>
+      <h3>Kickoff i cilj</h3>
+      <p>Dogovorimo što želimo: doseg (CPM), promet (CPC) ili konverzije (oCPC). Zapišemo ciljnu državu (HR / EU), tematski okvir razgovora i što se smatra uspjehom (upit, kupnja, prijava).</p>
+    </li>
+    <li>
+      <h3>Priprema weba (prije ikakvog oglasa)</h3>
+      <ul class="check">
+        <li>Omogućiti OpenAI crawlere u <code>robots.txt</code> i na firewallu</li>
+        <li>Postaviti OpenAI pixel i Conversions API te potvrditi događaje</li>
+        <li>Uskladiti landing s porukom oglasa (ponuda i cijene moraju odgovarati)</li>
+        <li>Pripremiti 3+ varijante kreative (naslov, opis, vizual)</li>
+      </ul>
+      <p class="note">Bez radnog mjerenja ne pokrećemo oCPC. Bez crawlera oglas često ne prođe provjeru.</p>
+    </li>
+    <li>
+      <h3>Račun i struktura kampanje</h3>
+      <p>Otvaramo / povezujemo ChatGPT Ads račun, složimo strukturu kampanje, tematskih signala i (po potrebi) custom audience lista (email/telefon, dovoljno uparenih kontakata). Ciljanje u Europi je na razini države.</p>
+    </li>
+    <li>
+      <h3>Kreativa i landing</h3>
+      <p>Radimo kratke, jasne kartice (naziv + favicon, naslov, opis, slika, link). Poruka mora biti čitljiva u prvoj rečenici. Testiramo više varijanti paralelno.</p>
+    </li>
+    <li>
+      <h3>Pokretanje i pacing</h3>
+      <p>Uključimo kampanju, pratimo potrošnju i pacing. Prvi klikovi i prikazi dolaze brzo; zaključke o CPA i ROI ne donosimo prvih nekoliko dana.</p>
+    </li>
+    <li>
+      <h3>Optimizacija (tjedni ritam)</h3>
+      <ul class="check">
+        <li>Isključiti slabe kreatove, pojačati one s boljim CTR / konverzijom</li>
+        <li>Provjeriti landing i poruku ako je CTR dobar a konverzija slaba</li>
+        <li>Usporediti kanal s Google Ads / Meta istim mjerilima</li>
+      </ul>
+    </li>
+    <li>
+      <h3>Izvještaj i odluka</h3>
+      <p>Nakon ~2–3 tjedna gledamo stabilnije brojke (konverzije mogu kasniti 24–48 h). Nakon prvog mjeseca odlučujemo: skalirati, držati test ili stati. Suradnja je mjesečna, bez dugoročnog vezanja.</p>
+    </li>
+  </ol>
+
+  <div class="box">
+    <h3>Što klijent treba dati na startu</h3>
+    <ul class="check">
+      <li>Pristup webu / developeru za pixel, CAPI i crawlere</li>
+      <li>Landing URL koji odgovara ponudi</li>
+      <li>Brand materijale (logo, favicon, boje, kratke poruke)</li>
+      <li>Budžet i model (CPM / CPC / oCPC) + država ciljanja</li>
+      <li>Po želji: lista kontakata za custom audience</li>
+      <li>Kontakt za tjedni sync (mail ili kratki call)</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>Što radi Alkemija</h3>
+    <ul class="check">
+      <li>Setup računa i kampanje, kreativa, signali, liste</li>
+      <li>Tehnička provjera weba i mjerenja</li>
+      <li>Vođenje potrošnje, testovi, optimizacija</li>
+      <li>Mjesečno izvještavanje + usporedba s drugim kanalima</li>
+      <li>Konzulting: je li kanal pogodan (široki B2C da; uski B2B oprezno)</li>
+    </ul>
+  </div>
+
+  <h2>Uključene usluge</h2>
+  <ul class="check">
+    <li>Postavljanje ChatGPT Ads računa i strukture kampanja</li>
+    <li>Implementacija OpenAI pixela i Conversions API mjerenja</li>
+    <li>Provjera tehničkih uvjeta na webu</li>
+    <li>Izrada kreative (naslovi, opisi, vizuali)</li>
+    <li>Tematski signali i ciljanje publike</li>
+    <li>Custom audience liste</li>
+    <li>Praćenje budžeta i pacinga</li>
+    <li>Kontinuirano testiranje kreative i landinga</li>
+    <li>Mjesečno izvještavanje</li>
+    <li>Konzulting i sastanci</li>
+  </ul>
+
+  <h2>Što je ChatGPT oglašavanje?</h2>
+  <p>Sponzorirane kartice u razgovoru, jasno označene kao oglas. Ne umeću se u tekst odgovora. Prikaz ovisi o temi razgovora, jeziku i signalima. Sadržaj razgovora ostaje kod OpenAI-a.</p>
+
+  <h2>Dostupnost u Hrvatskoj</h2>
+  <p>Dostupno u EU / HR od kolovoza 2026. Ads Manager je samostalan. Ciljanje: država (bez grada/regije kao u Google Adsu).</p>
+
+  <h2>Modeli naplate</h2>
+  <table>
+    <thead>
+      <tr><th>Model</th><th>Naplata</th><th>Kada</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>CPM</td><td>Po 1.000 prikaza</td><td>Doseg / brand</td></tr>
+      <tr><td>CPC</td><td>Po kliku</td><td>Promet / prvi test</td></tr>
+      <tr><td>oCPC</td><td>Po kliku + optimizacija na konverziju</td><td>Akcija na webu (mjerenje mora raditi)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Uz Google Ads</h2>
+  <p>ChatGPT nije zamjena za Google Ads — dodatni kanal uz postojeće kampanje, mjeren istim mjerilima. Signal je tema razgovora, ne ključna riječ. Publika: Free + Go.</p>
+
+  <h2>Kome se isplati</h2>
+  <p>Najbolje: široki B2C (webshop, usluge, turizam, edukacija, zdravlje). Uski B2B je rizičniji jer plaćeni ChatGPT paketi često nemaju oglase — tada manji test ili drugi kanali.</p>
+
+  <footer class="alk-foot">
+    <p><strong>Alkemija</strong> · obrt za dizajn · 3. Pile 10, 10000 Zagreb · OIB 34772291906<br>
+    Tel <a href="tel:+38598516852">+385 98 516 852</a> · <a href="mailto:info@alkemija.hr">info@alkemija.hr</a> · <a href="https://www.alkemija.hr/cjenik/">cjenik</a></p>
+    <p><a class="cta" href="mailto:info@alkemija.hr?subject=ChatGPT%20ogla%C5%A1avanje%20%E2%80%94%20kickoff">Pošaljite upit za kickoff</a></p>
+  </footer>
+</section>

@@ -39,19 +39,27 @@ U `index.html` su canonical i Open Graph adresa već postavljeni na taj URL. Ako
 
 Povucite repozitorij. Publish directory je korijen (`.`). Build command ostavite prazan.
 
+## Objava na alkemija.com i alkemija.hr
+
+Upute za zalijepiti u WordPress su u mapi `objava/`.
+
+- Živo: [alkemija.com/chatgpt-oglasavanje](https://alkemija.com/chatgpt-oglasavanje/)
+- Još nije: pločica na početnoj alkemija.com, stranica i cjenik na [alkemija.hr](https://www.alkemija.hr/)
+
 ## Sadržaj stranice
 
 1. Hero — ChatGPT oglašavanje, napomena o besplatnom paketu i paketu Go, kontakt
-2. Uključene usluge
-3. Što je ChatGPT oglašavanje
-4. Dostupnost u Hrvatskoj
-5. Modeli naplate
-6. Ciljanje
-7. Mjerenje konverzija
-8. Format oglasa
-9. Usporedba s Google Adsom
-10. Kome se isplati
-11. Priprema weba
-12. Trajanje i očekivanja
-13. Paketi i programi s početne alkemija.com
-14. Footer i kontakt
+2. Kako mi to radimo — upute
+3. Uključene usluge
+4. Što je ChatGPT oglašavanje
+5. Dostupnost u Hrvatskoj
+6. Modeli naplate
+7. Ciljanje
+8. Mjerenje konverzija
+9. Format oglasa
+10. Usporedba s Google Adsom
+11. Kome se isplati
+12. Priprema weba
+13. Trajanje i očekivanja
+14. Paketi i programi s početne alkemija.com
+15. Footer i kontakt
