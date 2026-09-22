@@ -42,6 +42,8 @@ U `cjenik.csv` red:
 Satnica,ChatGPT oglašavanje — postava i vođenje (bez medijskog budžeta),50,sat
 ```
 
-Na naslovnici alkemija.hr, uz piluricu, isti stil poveznice:
+Na naslovnici alkemija.hr, odmah ispod pilurice, isti stil kao „priprema newslettera i web izloga >”:
 
-`chatgpt oglašavanje >` → `https://www.alkemija.hr/chatgpt-oglasavanje/`
+`chatgpt oglašavanje >` → `https://alkemija.com/chatgpt-oglasavanje/`
+
+Točan HTML: `alkemija-hr-naslovnica-link.html`. Kad bude živa stranica na alkemija.hr, zamijeni href u `/chatgpt-oglasavanje/`.
